@@ -1,7 +1,13 @@
+import AddCarComponent from "./componets/AddCarComponent";
 import Button from "./componets/Button";
+import CarComponent from "./componets/CarComponent";
 import Card from "./componets/Card";
+import ColorPicker from "./componets/ColorPicker";
+import Counter from "./componets/Counter";
+import FoodComponent from "./componets/FoodComponent";
 import List from "./componets/List";
 import MyComponent from "./componets/myComponent";
+import MyComponent2 from "./componets/MyComponent2";
 import ProfilePicture from "./componets/ProfilePicture";
 import Student from "./componets/Student";
 import Greeting from "./componets/userGreeting";
@@ -23,6 +29,12 @@ function App() {
       <ProfilePicture />
       <MyComponent />
       <MyComponent />
+      <Counter />
+      <MyComponent2/>
+      <ColorPicker/>
+      <CarComponent />
+      <FoodComponent/>
+      <AddCarComponent/>
       
     </>
   );

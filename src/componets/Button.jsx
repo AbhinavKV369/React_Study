@@ -13,7 +13,12 @@ function Button() {
     }
   };
 
-  const eventClick = (e) => e.target.style.backgroundColor = "red";
+  const eventClick = (e) =>{
+    e.target.style.backgroundColor = "red";
+
+  } 
+  
+
 
 
   return (
