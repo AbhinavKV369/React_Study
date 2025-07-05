@@ -164,3 +164,9 @@ article {
     background: #1f1f1f;
     color: #e0e0e0;
 }
+.box {
+  background: white;
+  color: #121212;
+  padding: 25px;
+  border: 3px solid;
+}

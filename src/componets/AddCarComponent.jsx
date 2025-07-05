@@ -37,7 +37,7 @@ function AddCarComponent() {
       <ul>
         {cars.map((car, index) => (
           <li key={index}>
-            {car.year} {car.make} {car.model} <span><a onClick={()=>handleRemoveCar(index)}>remove</a></span>
+            {car.year} {car.make} {car.model} <span ><a style={{background:"red",border:"3px"}} onClick={()=>handleRemoveCar(index)}>Remove</a></span>
           </li>
         ))}
       </ul>

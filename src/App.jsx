@@ -9,11 +9,16 @@ import List from "./componets/List";
 import MyComponent from "./componets/myComponent";
 import MyComponent2 from "./componets/MyComponent2";
 import ProfilePicture from "./componets/ProfilePicture";
+import RealTimeClock from "./componets/RealTimeClock";
 import Student from "./componets/Student";
+import ToDolist from "./componets/ToDolist";
+import UseEffect from "./componets/UseEffect";
+import UseEffect2 from "./componets/UseEffect2";
 import Greeting from "./componets/userGreeting";
+import ComponentA from "./usecontext/ComponentA";
 
-
-import "./index.css";
+import "./index.css"
+import UseRef from "./componets/UseRef";
 
 function App() {
   return (
@@ -30,12 +35,18 @@ function App() {
       <MyComponent />
       <MyComponent />
       <Counter />
-      <MyComponent2/>
-      <ColorPicker/>
+      <MyComponent2 />
+      <ColorPicker />
       <CarComponent />
-      <FoodComponent/>
-      <AddCarComponent/>
-      
+      <FoodComponent />
+      <AddCarComponent />
+      <ToDolist />
+      <UseEffect/>
+      <UseEffect2 />
+      <RealTimeClock />
+      <ComponentA />
+      <UseRef />
+
     </>
   );
 }
