@@ -1,9 +1,7 @@
-import { useMemo, useState } from "react";
-import "./index.css"
+import React, { useMemo, useState } from 'react'
 
-function App() {
-
-  const [number,setNumber] = useState(0);
+const UseMemo = () => {
+ const [number,setNumber] = useState(0);
   const [count,setCount] = useState(0)
   
     function cubeNum(n){
@@ -26,4 +24,5 @@ function App() {
          </div>
         )
       }
-export default App;
+
+export default UseMemo
