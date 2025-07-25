@@ -1,29 +1,18 @@
-import { useMemo, useState } from "react";
+import {  } from "react";
 import "./index.css"
+import Profile from "./Hooks/Components/Profile";
+import Footer from "./Hooks/Components/Footer";
 
 function App() {
 
-  const [number,setNumber] = useState(0);
-  const [count,setCount] = useState(0)
+  return (
+    <div>
+      <Profile/>
+      <Footer />
   
-    function cubeNum(n){
-      console.log("Calculation done")
-      return Math.pow(n,3)
-    }
+    </div>
+  );
+}
 
-    const result = useMemo(()=>{
-       return cubeNum(number)
-    },[number]);
 
-        return (
-          <div> 
-             <input value={number} onChange={(e)=>{ setNumber(e.target.value) }} />
-             <h1>The Cube of number is {result}</h1> 
-             <div>
-              <h1>The Count is {count}</h1>
-              <button onClick={()=>{setCount(prev=> prev + 1 )}} >Count ++</button>
-             </div>
-         </div>
-        )
-      }
 export default App;
