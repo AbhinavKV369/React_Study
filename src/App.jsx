@@ -1,18 +1,7 @@
-import {  } from "react";
-import "./index.css"
-import Profile from "./Hooks/Components/Profile";
-import Footer from "./Hooks/Components/Footer";
+import { useEffect ,useLayoutEffect} from "react";
+import "./index.css";
+
 
 function App() {
-
-  return (
-    <div>
-      <Profile/>
-      <Footer />
-  
-    </div>
-  );
 }
-
-
 export default App;

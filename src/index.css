@@ -23,7 +23,7 @@ div{
     width: 200px;
     height: 200px;
 }
-.button{
+.button input{
     background: blue;
     color: wheat;
     padding: 10px 20px;
